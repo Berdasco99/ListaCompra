@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/añadir"
+        android:icon="@drawable/addbox"
+        android:orderInCategory="101"
+        android:title="Este boton te permite seleccionar rapidamente tus productos favoritos"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/blanco"
+                android:title="Blanco"/>
+            <item android:id="@+id/gris"
+                android:title="Gris"/>
+            <item android:id="@+id/cyan"
+                android:title="Cyan"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Cerrar"
+        android:id="@+id/quit"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/exittoapp"
+        />
+
+    <item android:title="Este boton te permite guardar tus productos favoritos"
+        android:id="@+id/añadirlista"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/libraryadd">
+        <menu>
+            <item android:id="@+id/textoNegro"
+                android:title="Negro"/>
+            <item android:id="@+id/textoAzul"
+                android:title="Azul"/>
+            <item android:id="@+id/textoRojo"
+                android:title="Rojo"/>
+        </menu>
+
+    </item>
+
+</menu>

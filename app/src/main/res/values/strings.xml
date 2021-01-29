@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListaCompra</string>
+    <string name="txtviewHint">Añade un producto</string>
+</resources>
